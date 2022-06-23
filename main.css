@@ -1,0 +1,189 @@
+
+
+:root{
+
+    --netflix-color:#e50914;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: black; 
+  color:white;
+}
+h1 h2 h3{
+    color:white;
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url("/images/netflix-background.jpg");
+
+}
+.my-div{
+    position: relative;
+    height: 90px;
+
+}
+.my-div img{
+    height: 170px;
+    width: 220px;
+    position:relative;
+    top:-30px;
+    left:900px;
+    z-index: 2;
+    
+}
+.btn-sm{
+    position:absolute;
+    top:30px;
+    right:50px;
+    color: white;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: #e50914;
+    width: 100px;
+    height: 30px;
+    text-align:center;
+    border:none;
+    border-radius: 5px;
+    z-index: 2;
+
+}
+.btn-sm:hover{
+    opacity: 0.9;
+}
+.lang{
+    position:absolute;
+    right: 160px;
+    top:30px;
+    height:30px;
+    color: white;
+    background-color: black;
+    opacity:70%;
+    z-index:9;
+    border-radius: 3px;
+    z-index: 2;
+
+}
+.contenido{
+    position:absolute;
+    top:200px;
+    left: 800px;
+    top:180px;
+    width: 500px;
+    z-index: 2;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    z-index: 2;
+}
+h2{
+    margin-top: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+.contenido-2{
+    position:absolute;
+    top:650px;
+    left:700px;
+    z-index: 2;
+}
+p{
+    font-size: 17px;
+    z-index: 2;
+   
+}
+.email{
+    color:grey;
+    width: 500px;
+    height: 70px;
+    border-radius: 2px;
+    text-indent: 15px;
+    z-index: 2;
+    
+}
+.btn-xl{
+    color: white;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: #e50914;
+    width: 250px;
+    height: 69px;
+    text-align:center;
+    border:none;
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    left:-6px;
+    top:7px;
+    z-index: 2;
+
+}
+.btn-xl:hover{
+   opacity: 0.9;
+}
+.header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color:rgba(0,0,0,0.6);
+    box-shadow: inset 120px 100px 250px black,inset -120px -100px 250px black;
+    
+}
+.separador{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(44, 44, 44);
+}
+.contenido-3{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+
+}
+.text{
+    font-size: 50px;
+    font-weight: 10px;
+}
+.text-1{
+    font-size: 25px;
+    width: 450px;
+    margin-top:20px;
+}
+.subcontent-3{
+    position:relative;
+    left: 400px;
+    top:20%;
+}
+video{
+    position:relative;
+    top:-250px;
+    left:500px;
+}
+.subcontent-4{
+    position:relative;
+    left: 900px;
+    top:20%;
+
+}
+.text-2{
+    width: 350px;
+}
+
+
+
