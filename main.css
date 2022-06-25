@@ -9,11 +9,15 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 body{
   background-color: black; 
   color:white;
+  overflow-x: hidden;
+  
+  
 }
 h1 h2 h3{
     color:white;
@@ -26,7 +30,7 @@ a{
     width: 100%;
     height: 93vh;
     position: relative;
-    background: url("/images/netflix-background.jpg");
+    background: url("netflix-background.jpg");
 
 }
 .my-div{
@@ -48,7 +52,7 @@ a{
     top:30px;
     right:50px;
     color: white;
-    font-weight:bold;
+    font-weight:lighter;
     font-size: 18px;
     background-color: #e50914;
     width: 100px;
@@ -72,6 +76,7 @@ a{
     opacity:70%;
     z-index:9;
     border-radius: 3px;
+    cursor: pointer;
     z-index: 2;
 
 }
@@ -82,11 +87,14 @@ a{
     top:180px;
     width: 500px;
     z-index: 2;
+    overflow-x: hidden;
+    
 }
 h1{
     font-size: 70px;
     font-weight: bold;
     z-index: 2;
+    box-sizing: border-box;
 }
 h2{
     margin-top: 20px;
@@ -98,6 +106,9 @@ h2{
     top:650px;
     left:700px;
     z-index: 2;
+    
+
+
 }
 p{
     font-size: 17px;
@@ -154,6 +165,8 @@ p{
     width: 100%;
     height: 400px;
     background-color: black;
+    box-sizing: border-box;
+    padding: 2% 10%;
 
 }
 .text{
@@ -167,8 +180,8 @@ p{
 }
 .subcontent-3{
     position:relative;
-    left: 400px;
-    top:20%;
+    left: 300px;
+    top:10%;
 }
 video{
     position:relative;
@@ -177,13 +190,47 @@ video{
 }
 .subcontent-4{
     position:relative;
-    left: 900px;
-    top:20%;
+    left: 920px;
+    top:-30px;
 
 }
 .text-2{
     width: 350px;
 }
+.image{
+    position:absolute;
+    left:-650px;
+    top:-10px;
+}
+.text-3{
+    position: relative;
+    top: 50px;
+    left:400px;
+}
+.subcontent-5{
+    position: relative;
+    top:20px;
+    left:300px;
+}
+.subcontent-6{
+    position: relative;
+    top:10px;
+    left: 850px;
 
+}
+.image-2{
+    position: relative;
+    top:-270px;
+    left:200px;
+}
+.container-4{
+    width: 100%;
+    height: 900px;
+}
+.faq{
+position: relative;
+top: 70px;
+left: 33%;
 
+}
 
