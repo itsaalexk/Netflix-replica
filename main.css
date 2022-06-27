@@ -34,14 +34,14 @@ a{
 
 }
 .my-div{
-    position: relative;
+    position:relative;
     height: 90px;
 
 }
 .my-div img{
     height: 170px;
     width: 220px;
-    position:relative;
+    position:absolute;
     top:-30px;
     left:900px;
     z-index: 2;
@@ -230,46 +230,120 @@ video{
     height: 900px;
 }
 .faq{
-position: relative;
-top: 70px;
-left: 33%;
+    position: relative;
+    top: 70px;
+    left: 33%;
 
 }
+.indent{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -7px;
+  margin-right: 10px;
+  font-size:20px;
+  
+}
+.bottom{
+    position: relative;
+    margin-left: 620px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.container-5{
+    width:100%;
+    height:100px;
+    color:grey;
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    color:rgb(206, 204, 204);
+    text-align: center;
+    margin-bottom: 15px;
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+}
 /*ACCORDION ATRIBUTES*/
+.container-4{
+    height: auto;
+}
+.logos{
+    height:fit-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-50px;
+    
+}
+.git{
+    width: 40px;
+}
+.insta{
+    width: 40px;
+    margin-left: 15px;
+}
+
+
+
 .accordion-item{
     width: 800px;
-    max-width: 1000px;
+    
     margin-left: 600px;
     margin-top:0.5rem  ;
     position: relative;
     top:150px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 .accordion-header{
    font-family:'Open Sans', sans-serif;
-    height: 60px;
+    height: 70px;
     background-color:rgb(51, 51, 51);
     font-size: 2rem;
     text-indent:30px;
     font-weight: bold;
     cursor: pointer;
+    line-height: 70px;
 }
 .accordion-body{
+    display:none;
     font-family:'Open Sans', sans-serif;
     background-color:rgb(51, 51, 51) ;
-    height: 150px;
-    font-size:2rem;
+    height:fit-content;
     text-align: center;
+    font-weight: bold;
     cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-top: 3px solid black;
+    
 
 }.accordion-header::after{
     content:"\002B";
     font-size: 2rem;
     position: absolute;
     right: 2rem;
-}
-.accordion-header::after{
-    content:"\2212";
     
 }
+.accordion-header.active::after{
+    content:"\00D7";
+    transition: 1s;
+    
+}
+.accordion-header.active + .accordion-body{
+    display:block;
+    
+}
+.accordion-header:hover{
+    opacity:0.9;
+}
+
+/**/
+
+
+
 

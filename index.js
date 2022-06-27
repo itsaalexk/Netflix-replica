@@ -7,6 +7,13 @@ accordionItems.forEach(accordionItem =>{
     });
 })
 
+const accordionBody= document.querySelectorAll(".accordion-body");
+
+accordionBody.forEach(accordion =>{
+    accordion.addEventListener("click",event=>{
+        accordion.classList.toggle("active");
+    })
+})
     
 
 
