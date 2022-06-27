@@ -126,6 +126,9 @@ p{
     z-index: 2;
     
 }
+
+
+
 .btn-xl{
     color: white;
     font-weight:bold;
@@ -345,6 +348,9 @@ i{
 .accordion-header:hover{
     opacity:0.9;
 }
+.border-box{
+    border-radius: 5px;
+}
 
 /**/
 
@@ -390,7 +396,7 @@ i{
     img.image{
         width: 400px;
         left:-450px;
-        top
+        
     }
     div.subcontent-5{
         width:750px;
@@ -420,6 +426,7 @@ i{
         
         
     }
+
 
 }
  
