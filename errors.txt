@@ -1,4 +1,6 @@
 1.Modificar el video, porque no sé porque no funciona.
-2.Añadir Media queries.
+2.Añadir Media queries a version movil.
 3.Meter código Javascript.
 4.Traducir la página al español.
+5.Añadir placeholder a input text.
+6.cambiar input type="button por <button></button>
